@@ -1,6 +1,6 @@
 
 <header>
-
+    
 <a href="#" class="logo"><i class="fas fa-dumbbell"></i> <span>MUSCLE</span>DEV. </a>
 
 <div id="menu" class="fas fa-bars"></div>

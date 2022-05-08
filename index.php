@@ -11,13 +11,21 @@
     <link rel="icon" type="image/x-icon" href="Picture/14.png">
     <!-- custom css file link  -->
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="scroll.css">
+    <link rel="stylesheet" href="tips.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="calcu.css">
+
+    
+
+
     
 
 </head>
 <body>
-    
+
 <!-- header section starts  -->
-<?php include 'Header.php'?>
+<?php include 'header.php'?>
 <!-- header section ends -->
 
 <!-- home section starts  -->
@@ -31,17 +39,7 @@
 <?php include 'footer.php'?>
 <!-- footer section ends -->
 
-
-<!-- jquery cdn link  -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
-<!-- custom js file link  -->
-<script src="main.js"></script>
-
-<!-----bootstrap js--------->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+<?php include 'script.php'?>
 
 </body>
 </html>
